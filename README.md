@@ -12,7 +12,7 @@ docker build -t happyappimg:latest .
 ## :cloud: Create the Pod
 
 ```bash
-kubectl create -f .\podhappyapp.yaml
+kubectl create -f podhappyapp.yaml
 ```
 
 List all pods
@@ -33,7 +33,7 @@ Make the happy app visible to you local machine
 Create deployment
 
 ```bash
-kubectl apply -f .\deploymenthappyapp.yaml
+kubectl apply -f deploymenthappyapp.yaml
 ```
 
 Start the service
